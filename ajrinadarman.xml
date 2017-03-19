@@ -1,0 +1,17 @@
+<!DOCTYPE basket[
+  <!ELEMENT basket (mahasiswa)>
+  <!ELEMENT mahasiswa   (name | jurusan | kelas)>
+  <!ELEMENT name      (#PCDATA)>
+  <!ELEMENT jurusan     (#PCDATA)>
+  <!ELEMENT kelas  (#PCDATA)>
+]>
+<basket>
+   <mahasiswa>
+      <name> Ajrina Darman </name>
+      <jurusan> Teknik Informatika</jurusan>
+   </mahasiswa>
+   <mahasiswa>
+      <name>Ajrina Darman <name>
+      <kelas> D4 TI 2B </kelas>
+   </mahasiswa>
+   </basket>
