@@ -1,0 +1,5 @@
+< ! ELEMENT basket (basket+) >
+<!ELEMENT mahasiswa (nama, jurusan, kelas*) >
+<!ELEMENT nama (#PCDATA) >
+<!ELEMENT jurusan(#PCDATA) >
+<!ELEMENT kelas (#PCDATA) >
